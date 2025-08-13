@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Six6s Baji - বাংলাদেশের সেরা অনলাইন বাজি প্লাটফর্ম</title>
+    <style>
+        :root {
+            --primary: #ff6b00;
+            --secondary: #003366;
+            --accent: #ffcc00;
+            --light: #f8f9fa;
+            --dark: #212529;
+        }
+        
+        body {
+            font-family: 'Hind Siliguri', 'SolaimanLipi', sans-serif;
+            background: linear-gradient(135deg, #f5f5f5 0%, #e0e0e0 100%);
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .navbar {
+            background: var(--secondary);
+            color: white;
+            padding: 15px 0;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .logo {
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--accent);
+        }
+        
+        .btn {
+            padding: 10px 25px;
+            border-radius: 5px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s;
+        }
+        
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: #e05d00;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        
+        .btn-secondary {
+            background: var(--accent);
+            color: var(--dark);
+        }
+        
+        .hero {
+            background: url('https://images.unsplash.com/photo-1635070041078-e363dbe005cb') center/cover;
+            padding: 100px 0;
+            text-align: center;
+            color: white;
+            position: relative;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.6);
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .hero h1 {
+            font-size: 42px;
+            margin-bottom: 20px;
+        }
+        
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 30px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .bonus-badge {
+            background: var(--accent);
+            color: var(--dark);
+            padding: 10px 20px;
+            border-radius: 50px;
+            font-weight: 700;
+            display: inline-block;
+            margin-bottom: 20px;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        .games-section {
+            padding: 60px 0;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+            color: var(--secondary);
+        }
+        
+        .games-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        
+        .game-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transition: all 0.3s;
+        }
+        
+        .game-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+        
+        .game-card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+        
+        .game-card-content {
+            padding: 15px;
+        }
+        
+        .payment-methods {
+            background: var(--light);
+            padding: 60px 0;
+            text-align: center;
+        }
+        
+        .payment-icons {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-top: 30px;
+        }
+        
+        .payment-icon {
+            width: 80px;
+            height: 50px;
+            object-fit: contain;
+        }
+        
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #25D366;
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            z-index: 100;
+            transition: all 0.3s;
+        }
+        
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+        }
+        
+        footer {
+            background: var(--dark);
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+        
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 32px;
+            }
+            
+            .games-grid {
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Six6s Baji</div>
+        </div>
+    </nav>
+    
+    <section class="hero">
+        <div class="hero-content container">
+            <div class="bonus-badge">নতুন অ্যাকাউন্টে 250% বোনাস!</div>
+            <h1>বাংলাদেশের সেরা অনলাইন বাজি প্লাটফর্ম</h1>
+            <p>ক্রিকেট, ফুটবল, ক্যাসিনো, লুডু, লটারি সহ হাজারো গেমে বাজি ধরুন এবং বড় অঙ্কের জয় লাভ করুন। সহজ ডিপোজিট/উইথড্র পদ্ধতি এবং 24/7 কাস্টমার সাপোর্ট।</p>
+            <a href="https://6s03p15aff2025.com/af/XaiS073r/Singup" class="btn btn-primary">সাইন আপ করুন</a>
+            <a href="https://six6scricket.com/in/en/login" class="btn btn-secondary">লগ ইন</a>
+        </div>
+    </section>
+    
+    <section class="games-section container">
+        <h2 class="section-title">আমাদের জনপ্রিয় গেমস</h2>
+        <div class="games-grid">
+            <div class="game-card">
+                <img src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e" alt="ক্রিকেট">
+                <div class="game-card-content">
+                    <h3>ক্রিকেট বাজি</h3>
+                    <p>আইপিএল, বিগ ব্যাশ, বিশ্বকাপ সহ সকল ম্যাচে লাইভ বাজি</p>
+                </div>
+            </div>
+            <div class="game-card">
+                <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018" alt="ফুটবল">
+                <div class="game-card-content">
+                    <h3>ফুটবল বাজি</h3>
+                    <p>প্রিমিয়ার লিগ, লা লিগা, চ্যাম্পিয়ন্স লিগে বাজি</p>
+                </div>
+            </div>
+            <div class="game-card">
+                <img src="https://images.unsplash.com/photo-1596838132731-3301c3fd4317" alt="ক্যাসিনো">
+                <div class="game-card-content">
+                    <h3>লাইভ ক্যাসিনো</h3>
+                    <p>রুলেট, বাকারা, ব্ল্যাকজ্যাক সহ ক্যাসিনো গেমস</p>
+                </div>
+            </div>
+            <div class="game-card">
+                <img src="https://images.unsplash.com/photo-1635070040809-4c8c7a1f4fac" alt="লুডু">
+                <div class="game-card-content">
+                    <h3>লুডু কিং</h3>
+                    <p>বন্ধুদের সাথে প্রতিযোগিতা করে জিতুন বড় পুরস্কার</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="payment-methods">
+        <div class="container">
+            <h2 class="section-title">পেমেন্ট মেথড</h2>
+            <p>আমরা বাংলাদেশের সবচেয়ে জনপ্রিয় পেমেন্ট মেথড সমর্থন করি</p>
+            <div class="payment-icons">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/BKash_logo.svg/1200px-BKash_logo.svg.png" alt="বিকাশ" class="payment-icon">
+                <img src="https://www.nogod.com.bd/assets/frontend/img/logo.png" alt="নগদ" class="payment-icon">
+                <img src="https://www.dutchbanglabank.com/wp-content/uploads/2020/09/rocket-logo.png" alt="রকেট" class="payment-icon">
+            </div>
+            <p style="margin-top: 30px;">তাত্ক্ষণিক ডিপোজিট এবং দ্রুত উইথড্র প্রসেস</p>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>© 2023 Six6s Baji. সকল অধিকার সংরক্ষিত</p>
+            <p>অ্যাকাউন্ট খুলতে বা যেকোন সমস্যার সমাধান পেতে আমাদের সাথে যোগাযোগ করুন</p>
+        </div>
+    </footer>
+    
+    <a href="https://wa.me/8801303513957" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
